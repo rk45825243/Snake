@@ -27,7 +27,7 @@ game_sound.set_volume(0.6)
 pause_sound.set_volume(0.1)
 endgame_sound.set_volume(0.12)
 
-width, height = 1000, 600
+width, height = 1024, 786
 game_display = pygame.display.set_mode((width, height))
 game_display.fill((170,150,255))
 blist=[]
